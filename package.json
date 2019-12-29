@@ -1,0 +1,42 @@
+{
+	"name": "mds-design-sytem",
+	"description": "MDS Design System Helper - This extension lets you use MDS constants and color easily at one click.",
+	"version": "0.0.1",
+	"publisher": "Akhilesh Yadav",
+	"repository": "",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"activationEvents": [
+		"onCommand:extension.mdsHack1",
+		"onCommand:extension.mdsConstants1",
+		"onLanguage:markdown"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.mdsHack1",
+				"title": "Activate MDS Design System"
+			},
+			{
+				"command": "extension.mdsConstants1",
+				"title": "Activate MDS Design System Constants"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "tslint -p ./",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^10.12.18",
+		"tslint": "^5.16.0",
+		"typescript": "^3.5.1",
+		"@types/vscode": "^1.32.0"
+	}
+
+
+}

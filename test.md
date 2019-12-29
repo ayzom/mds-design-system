@@ -1,0 +1,11 @@
+$mds-interactive-color-primary-default": #0077cf;
+$mds-interactive-color-primary-hover": #005ba1;
+$mds-interactive-color-primary-focus": #005ba1;
+$mds-interactive-color-primary-active": #004376;
+$mds-interactive-color-secondary-primary": transparent;
+$mds-interactive-color-secondary-hover": #5e5e5e;
+$mds-interactive-color-secondary-focus":" #5e5e5e;
+$mds-interactive-color-secondary-active-on-light": #333333;
+$mds-interactive-color-secondary-active-on-dark": #e5e5e5;
+$mds-interactive-color-disabled-on-light": #808080;
+$mds-interactive-color-disabled-on-dark": #ababab;
